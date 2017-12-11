@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=TwoDimArrays
+comment1.params=rows\ cols
+comment1.target=TwoDimArrays(int,\ int)
+comment2.params=nums
+comment2.target=double\ averageArray(int[][])
+comment3.params=nums
+comment3.target=int[]\ sumColumns(int[][])
+comment4.params=nums
+comment4.target=int[][]\ squareArray(int[][])
+numComments=5
