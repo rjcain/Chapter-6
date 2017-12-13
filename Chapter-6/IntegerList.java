@@ -66,15 +66,15 @@ public class IntegerList{
     //-------------------------------------------------------
     public void selectionSort()
     {
-	int swapper = 0;
-	for (int current =0; current < list.length-1; current++) {
-		for(int comparer = 0; comparer < list.length-current; comparer++) {
-	            if(list[current] > list[comparer]) {
+        int swapper = 0;
+	for (int current = 0; current < list.length-1; current++) {
+	    for(int comparer = current; comparer < list.length; comparer++) {
+		    if(list[current] > list[comparer]) {
 		        swapper = list[current];
 		        list[current] = list[comparer];
 		        list[comparer] = swapper;
 		          }
-		      }
+		      }   
 	    }
     }
     
